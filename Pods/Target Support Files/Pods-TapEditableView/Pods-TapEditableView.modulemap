@@ -1,0 +1,6 @@
+framework module Pods_TapEditableView {
+  umbrella header "Pods-TapEditableView-umbrella.h"
+
+  export *
+  module * { export * }
+}

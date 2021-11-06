@@ -13,6 +13,6 @@ Pod::Spec.new do |tapEditableView|
     tapEditableView.source                  = { :git => 'https://github.com/Tap-Payments/TapEditableView-iOSV2.git', :tag => tapEditableView.version.to_s }
     tapEditableView.source_files            = 'TapEditableView/Source/*.swift'
     
-    tapEditableView.dependency 'TapAdditionsKitV2', TapAdditionsKitDependencyVersion
+    tapEditableView.dependency 'TapAdditionsKitV2'
     
 end

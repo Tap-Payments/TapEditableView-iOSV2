@@ -1,12 +1,12 @@
 Pod::Spec.new do |tapEditableView|
     
     tapEditableView.platform                = :ios
-    tapEditableView.ios.deployment_target   = '10.0'
+    tapEditableView.ios.deployment_target   = '11.0'
     tapEditableView.swift_versions          = ['4.0', '4.2', '5.0']
     tapEditableView.name                    = 'TapEditableViewV2'
     tapEditableView.summary                 = 'Editable view.'
     tapEditableView.requires_arc            = true
-    tapEditableView.version                 = '1.0.1'
+    tapEditableView.version                 = '1.0.2'
     tapEditableView.license                 = { :type => 'MIT', :file => 'LICENSE' }
     tapEditableView.author                  = { 'Osama Rabie' => 'o.rabie@tap.company' }
     tapEditableView.homepage                = 'https://github.com/Tap-Payments/TapEditableView-iOSV2'

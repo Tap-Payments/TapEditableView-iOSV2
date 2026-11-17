@@ -6,6 +6,7 @@
 //
 
 import struct CoreGraphics.CGGeometry.CGRect
+import class Foundation.NSCoder.NSCoder
 
 /// Base point to override TapEditableView.
 open class TapEditableViewSubclass: TapEditableView {
